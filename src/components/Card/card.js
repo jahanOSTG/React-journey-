@@ -1,5 +1,5 @@
 
-const todoTitle = "Hello World";
+const todoTitle = "Hellow World";
 const todoData = "Hi, I am Faria Jahan Janie.";
 const date = new Date();
 const dateName = date.getDate();
