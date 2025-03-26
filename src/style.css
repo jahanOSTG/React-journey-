@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headingStyle {
+    background-color: purple; /* Fix: Use background-color instead of backgroundColor */
+    color: white;
+    text-align: center; /* Fix: Use text-align instead of textAlign */
+    padding: 15px; /* Remove quotes around the value */
+}
+/* Card container style */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title style */
+  .cardTitle {
+    background-color: purple; /* Background color for the title */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Description style */
+  .carddesc {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  /* Footer style */
+  .cardfooter {
+    font-size: 0.875rem;
+    color: #888;
+    text-align: right;
+  }
+  
